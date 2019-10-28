@@ -2,6 +2,7 @@
   "name": "find-me-a-job",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://jobs.github.com",
   "dependencies": {
     "@material-ui/core": "^4.5.1",
     "react": "^16.11.0",

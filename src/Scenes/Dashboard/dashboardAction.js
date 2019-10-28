@@ -7,8 +7,8 @@ export const ERROR = 'ERROR';
 // Export Thunk
 export function fetchJobsThunk(language, location) {
   
-  let url =location ? `https://jobs.github.com/positions.json?description=${language}&location=${location}`:
-  `https://jobs.github.com/positions.json?description=${language}`;
+  let url =location ? `/positions.json?description=${language}&location=${location}`:
+  `/positions.json?description=${language}`;
   let headers = {
     method: 'GET',
     mode: 'no-cors',

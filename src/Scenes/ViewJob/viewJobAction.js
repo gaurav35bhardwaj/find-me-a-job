@@ -8,7 +8,7 @@ export const SHOW_PREVIEW = 'SHOW_PREVIEW';
 // Export Thunk
 export function fetchJobByIdThunk(id) {
   
-  let url =`/positions/${id}.json?markdown=true`;
+  let url =`https://jobs.github.com/positions/${id}.json?markdown=true`;
   let headers = {
     method: 'GET',
     mode: 'no-cors',
